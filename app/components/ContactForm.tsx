@@ -43,7 +43,7 @@ export default function ContactForm() {
         setStatus({ ok: false, msg: data?.error || "Failed to send message" });
       }
     } catch (err) {
-      setStatus({ ok: false, msg: "Network error. Try again." });
+      setStatus({ ok: false, msg: "Network error. Try again."});
     } finally {
       setLoading(false);
     }
