@@ -40,7 +40,7 @@ export default function CosmicPortfolio() {
       <GradientOrbs mousePos={mousePos} />
       <div className="relative z-10">
         <Navbar isScrolled={isScrolled} />
-        <Hero scrollY={scrollY} />
+        <Hero />
         <About />
         <Projects />
         <Skills />

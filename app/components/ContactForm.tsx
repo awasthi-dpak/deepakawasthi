@@ -1,7 +1,7 @@
 // app/components/ContactForm.tsx
 "use client";
 import React, { useState } from "react";
-import { Mail, Send, User, MessageSquare } from "lucide-react";
+import { Mail, Send, MessageSquare } from "lucide-react";
 import { motion } from "framer-motion";
 
 type FormState = {
@@ -52,8 +52,8 @@ export default function ContactForm() {
   return (
     <section id="contact" className="px-6 md:px-8 py-12">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400">
-          Contact Me
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center bg-clip-text text-transparent bg-linear-to-r from-purple-400 via-pink-400 to-blue-400">
+          Send Me a Anonymous Message 🙈
         </h2>
 
         <motion.form
@@ -61,13 +61,10 @@ export default function ContactForm() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="bg-gradient-to-br from-purple-600/6 to-pink-600/6 border border-purple-500/20 backdrop-blur-sm rounded-2xl p-6 md:p-8 flex flex-col gap-4"
+          className="bg-linear-to-br from-purple-600/6 to-pink-600/6 border border-purple-500/20 backdrop-blur-sm rounded-2xl p-6 md:p-8 flex flex-col gap-4"
         >
           <div className="flex flex-col md:flex-row gap-3">
             <label className="flex-1">
-              <div className="text-sm text-gray-300 mb-2 flex items-center gap-2">
-                <User className="w-4 h-4 text-purple-300" /> Name (optional)
-              </div>
               <input
                 type="text"
                 value={form.name}
