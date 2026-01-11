@@ -35,7 +35,7 @@ export default function CosmicPortfolio() {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-hidden">
+    <div className="relative min-h-screen bg-gray-800 text-white overflow-hidden">
       <ParticleCanvas />
       <GradientOrbs mousePos={mousePos} />
       <div className="relative z-10">

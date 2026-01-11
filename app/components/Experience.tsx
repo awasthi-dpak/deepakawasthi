@@ -8,7 +8,7 @@ export default function Experience() {
       company: "TreeLeaf Technology",
       role: "Frontend Developer(React/NextJs)",
       start: "JULY 2025",
-      end: "Present",
+      end: "DEC 2025",
     }
    
   ];

@@ -36,7 +36,7 @@ const Navbar = ({ isScrolled }: { isScrolled: boolean }) => {
           ))}
           <a
             href="#contact"
-            className="px-5 py-2 bg-linear-to-r from-purple-600 to-pink-600 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105"
+            className="px-5 py-2 bg-linear-to-r from-gray-500 to-gray-700 rounded-full font-medium hover:shadow-lg hover:shadow-gray-500/50 transition-all duration-300 hover:scale-105"
           >
             Contact
           </a>
